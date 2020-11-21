@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+:root {
+    --main-bg-color: #53d153;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 12px;
+}
+.menu hr {
+    width: 40px;
+    height: 5px;
+    background-color: var(--main-bg-color);
+    border: none;
+    margin-left: 35px;
+}
+.menu nav{
+    display: inline-flex;
+}
+
+.menu nav ul {
+    display: inline-flex;
+}
+.menu nav a{
+    font: normal 16px 'Montserrat', sans-serif;
+    color: #fff;
+    margin-left: 30px;
+    
+}
+.menu nav img {
+    width: 65px;
+    height: 20px;
+  margin-left: 300px;
+}
+.menu nav form {
+    margin-left: 450px;
+    border-radius: 15px;
+   
+}
+
+.menu nav input {
+    border-radius: 15px;
+    height: 27px;
+    width: 180px;
+    background-color: rgba(255,255,255, 0.9);
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    position: relative;
+}
+.menu nav form a {
+    color: #262626;
+    position: absolute;
+  right: 6%;
+ top: 1.5%;
+}
+.form a {
+    background-color: red;
+}
+.center h1 {
+    font: 700 55px 'Montserrat', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 250px;
+}
+.center button {
+    width: 210px;
+    height: 50px;
+    border-radius: 25px;
+    display: block;
+   margin: auto;
+   background-color: var(--main-bg-color);
+   border: none;
+   outline: none;
+   font: normal 22px 'Montserrat', sans-serif;
+    color: #fff;
+    margin-top: 35px;
+}
+.scroll button {
+    width: 140px;
+    height: 25px;
+    border-radius: 15px;
+    display: block;
+   margin: auto;
+   border: none;
+   outline: none;
+   font: 300 16px 'Montserrat', sans-serif;
+color: #111;
+margin-top: 215px;
+margin-bottom: 15px;
+position: relative;
+}
+.scroll a {
+    color: #fff;
+    position: absolute;
+ left: 50%;
+ top: 65%;
+}
+.main {
+    background-color: #FFF;
+}
+.main h3 {
+    font: 300 26px 'Montserrat', sans-serif;
+letter-spacing: 5px;
+color: #828181;
+text-align: center;
+padding-top: 40px;
+}
+.main hr {
+    width: 45px;
+    height: 3px;
+    background-color:  #828181;
+    border: none;                                                                                                                                                                                    
+   margin: auto;
+   margin-top: 15px;
+}
+.main > p {
+    font: 300 16px 'Open Sans', sans-serif;
+color: #b7b3b3;
+text-align: center;
+margin-top: 12px;
+}
+.esas {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 75px;
+}
+.work a {
+    color: var(--main-bg-color);
+    font-size: 100px;
+    background-color: #e0f3e0;
+    padding: 45px;
+    border-radius: 20px;
+    margin: 150px;
+}
+.work h4 {
+    font: bold 24px 'Montserrat', sans-serif;
+    color: #828181;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 65px;
+}
+.work p {
+    width: 273px;
+    font: 300 15px 'Montserrat', sans-serif;
+    color: #828181;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+.work button {
+    width: 120px;
+    height: 30px;
+    background-color: var(--main-bg-color);
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font: bold 16px 'Montserrat', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.photos {
+    background-color: var(--main-bg-color);
+
+}
+.photos h3 {
+    font: 300 20px 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    color: #207b20;
+    text-align: center;
+    padding-top: 40px;
+}
+.photos hr {
+    width: 45px;
+    height: 3px;
+    background-color:  #1f7b1f;
+    border: none;                                                                                                                                                                                    
+    margin: auto;
+    margin-top: 15px;
+}
+.photos p {
+    font: 300 16px 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 12px;
+    color: #2b9b2b;
+}
+.photos button {
+    margin: auto;
+    margin-top: 60px;
+    height: 35px;
+    outline: none;
+    font: 300 16px 'Montserrat', sans-serif;
+    
+}
+.button .photography {
+    width: 125px;
+    border-radius: 15px 0 0 15px;
+    background-color: #2b9b2b;
+    border: none;
+color: #fff;
+}
+.button .design {
+    width: 90px;
+color: #2b9b2b;
+    border: 1px solid #2b9b2b;
+}
+.button .print {
+    width: 70px;
+    color: #2b9b2b; 
+    border: 1px solid #2b9b2b;
+    border-radius: 0 15px 15px 0;
+}
+.pictures {
+    margin-left: 155px;
+}
+.pictures img {
+   margin: 30px;
+}
+.photos > button {
+    width: 190px;
+    height: 45px;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+    background-color: #2b9b2b;
+    border: none;
+color: #fff;
+}
+.testimonials h3 {
+    font: 300 20px 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    color: #828181;
+    text-align: center;
+    padding-top: 40px;
+}
+.testimonials hr {
+    width: 45px;
+    height: 3px;
+    background-color: #828181;
+    border: none;                                                                                                                                                                                    
+    margin: auto;
+    margin-top: 15px;
+}
+.testimonials > p {
+    font: 300 16px 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 12px;
+    color: #828181;
+}
+.text {
+    display: flex;
+    margin-top: 70px;
+}
+.text img {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+.text p {
+    width: 490px;
+    margin: auto;
+    font: 300 16px 'Montserrat', sans-serif;
+color: #444;
+text-align: center;
+
+}
+
+.person {
+    display: flex;
+   margin-left: 650px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.person img {
+    background-color: #FFF;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid #444;
+}
+.person h4 {
+    font: 300 16px 'Montserrat', sans-serif;
+color: #444;
+margin-left: 5px;
+}
+.person h5 {
+    font: bold 16px 'Montserrat', sans-serif;
+color: #ccc;
+margin-left: 5px;
+}
+.client {
+    background-color: #f2f1f1;
+    padding-bottom: 60px;
+}
+.client h3 {
+    font: 300 20px 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    color: #828181;
+    text-align: center;
+    padding-top: 40px;
+}
+.client hr {
+    width: 45px;
+    height: 3px;
+    background-color: #828181;
+    border: none;                                                                                                                                                                                    
+    margin: auto;
+    margin-top: 15px;
+    
+}
+.client p {
+    font: 300 16px 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 12px;
+    color: #828181;
+}
+.logolar {
+    margin-left: 200px;
+   
+}
+.logolar img {
+    text-align: center;
+    margin-right: 120px;
+    margin-top: 70px;
+    width: 155px;
+    height: 55px;
+   
+}
+.client button {
+    width: 190px;
+    height: 40px;
+    background-color: #dddcdc;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    border: none;
+    outline: none;
+    font: normal 18px 'Montserrat', sans-serif;
+color: #a59d9d;
+}
+.team {
+    background-color: var(--main-bg-color);
+    padding-bottom: 60px;
+}
+.team h3 {
+    font: 300 20px 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    color: #1f7b1f;
+    text-align: center;
+    padding-top: 40px;
+}
+.team > hr {
+    width: 45px;
+    height: 3px;
+    background-color: #1f7b1f;
+    border: none;                                                                                                                                                                                    
+    margin: auto;
+    margin-top: 15px;
+    
+}
+.team p {
+    font: 300 16px 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 12px;
+    color: #1f7b1f;
+}
+ .button2 {
+    background-color: #3eba3e;
+   padding-bottom: 40px;
+   padding-top: 40px;
+}
+
+.button2 button {
+    width: 210px;
+    height: 50px;
+    border-radius: 25px;
+    display: block;
+   margin: auto;
+   background-color: #53d153;
+   border: none;
+   outline: none;
+   font: normal 22px 'Montserrat', sans-serif;
+    color: #fff;
+    
+  
+} 
+.people {
+    display: flex;
+    margin-top: 50px;
+   position:relative;
+   left: 25%;
+}
+.people .hr {
+    border-left: 2px solid green;
+  height: 80px;
+  position: relative;
+  left: 30%;
+  top: 15px;
+}
+.people .image img {
+   margin: auto;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.people h4 {
+    font: normal 16px 'Montserrat', sans-serif;
+    color: #fff;
+    margin-top: 25px;
+    text-align: center;
+}
+ .social {
+    background-color: #c5e9c5;
+    border-radius: 25px;
+    margin: auto;
+    width: 90px;
+    height: 30px;
+    margin-top: 12px;
+}
+.social img {
+    margin: 4px 4px 0 3px;
+   
+}
+.info {
+    background-color: #333;
+    display: flex;
+    margin: auto;
+}
+.info h3 {
+    font: 300 16px 'Montserrat', sans-serif;
+letter-spacing: 3px;
+color: #ddd;
+text-align: center;
+padding-top: 30px;
+}
+.info hr {
+    width: 35px;
+    height: 3px;
+    background-color: #FFF;
+    margin: auto;
+    margin-top: 10px;
+}
+.info p {
+font: 300 16px 'Montserrat', sans-serif;
+color: #ccc;
+
+}
+.about {
+    margin-left: 135px;
+}
+.about p {
+    width: 316px;
+    text-align: center;
+    margin-top: 25px;
+}
+.recent {
+    margin-left: 95px;
+}
+.post {
+    display: flex;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+.post img {
+    width: 55px;
+    height: 55px;
+    margin-right: 5px;
+    
+}
+.post button {
+    font: 300 12px 'Montserrat', sans-serif;
+color: #fff;
+text-align: center;
+height: 20px;
+border-radius: 5px;
+border: none;
+outline: none;
+margin-top: 5px;
+}
+.magazine button{
+    background-color: #53d153;
+    width: 85px;
+}
+.design button{
+    background-color: #ffba00;
+    width: 85px;
+}
+.photography button{
+    background-color: #089cea;
+    width: 110px;
+}
+.book button{
+    background-color: #f34c03;
+    width: 50px;
+}
+.contact {
+    margin-left: 90px;
+}
+.contact p {
+    width: 225px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.contact form {
+    display: grid;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.contact form input {
+    width: 325px;
+    background-color: #444;
+    border: 1px solid #333;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.footer {
+    background-color: #212121;
+    padding-bottom: 30px;
+}
+.footer h3 {
+    font: 300 16px 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+color: #101010;
+text-align: center;
+padding-top: 30px;
+}
+.footer hr {
+    width: 35px;
+    height: 3px;
+    background-color: #101010;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+}
+.sponsor {
+    margin-left: 180px;
+    margin-top: 30px;
+}
+.sponsor img {
+    margin: auto;
+    margin-right: 110px;
+
+}
+.end {
+    background-color: #111;
+    display: flex;
+    padding: 15px 0 15px 600px;
+}
+.end p {
+    font: 300 16px 'Montserrat', sans-serif;
+color: #FFF;
+}
+.end a {
+    color: #FFF;
+}
+
+
+
+
+
